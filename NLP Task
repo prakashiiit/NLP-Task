@@ -1,0 +1,30 @@
+Hi,
+   You need to anylysis of the given resume and you need to find 2 things in it.
+	1. Find the techincal skills from resume.
+	2. Rank the techincal skills depends on there project done and other information in resume.
+
+Example:
+Input: 
+	Resume1.docx 
+	........................
+	........................
+	........................
+	Coding language: Java, C, C++, Python
+	Os: Windows, Linux
+	........................
+	........................
+	Project:
+		1. ABC project in Image Processing
+		2. XYZ project in Image processing in Python 
+
+
+Output:
+	Image Processing
+	Python
+	Java
+	C
+	C++
+
+Hint:
+	Take your own resume and test it.
+	Contact me : 9738683308/ omkar@artivatic.com
