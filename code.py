@@ -8,7 +8,7 @@ import numpy as np
 my_text = docx2txt.process("sample_cv.docx")
 document = Document('sample_cv.docx')
 lst = pd.read_csv("repository.csv")
-a=my_text.encode("utf-8","ignore")
+a=my_text.encode("ISO-8859-1","ignore")
 headings=[]
 tables = document.tables
 for table in tables:
