@@ -5,8 +5,8 @@ from docx import Document
 import nltk as nl
 import pandas as pd
 import numpy as np
-my_text = docx2txt.process("sample_cv.docx")
-document = Document('sample_cv.docx')
+my_text = docx2txt.process("rupjit.docx")
+document = Document('rupjit.docx')
 lst = pd.read_csv("repository.csv")
 a=my_text.encode("ISO-8859-1","ignore")
 headings=[]
